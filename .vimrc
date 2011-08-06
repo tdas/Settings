@@ -2,7 +2,7 @@ set nocompatible
 
 " Vundle
 filetype off
-set rtp+=~/.vim/vundle/
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'SuperTab-continued.'
