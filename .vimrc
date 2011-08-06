@@ -1,3 +1,15 @@
+set nocompatible
+
+" Vundle
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'SuperTab-continued.'
+
+filetype plugin indent on
+
+
 " Formatting
 set tabstop=2
 set shiftwidth=2
