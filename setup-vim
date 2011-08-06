@@ -1,0 +1,8 @@
+ln -s ~/Settings/.vim ~/.vim
+ln -s ~/Settings/.vimrc ~/.vimrc
+ln -s ~/Settings/.gvimrc ~/.gvimrc
+
+git submodule init
+git submodule update
+
+vim +BundleInstall
