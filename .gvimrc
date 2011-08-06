@@ -1,1 +1,1 @@
-/Users/tdas/.gvimrc
+colorscheme zellner

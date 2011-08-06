@@ -1,1 +1,8 @@
-/Users/tdas/.gitconfig
+[user]
+	name = Tathagata Das
+	email = tathagata.das1565@gmail.com
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+	ui = auto
