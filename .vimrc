@@ -8,7 +8,6 @@ Bundle 'SuperTab-continued.'
 Bundle 'fugitive.vim' 
 filetype plugin indent on
 
-
 " Formatting
 set tabstop=2
 set shiftwidth=2
@@ -39,3 +38,5 @@ set hlsearch          " search cmds together make searching pretty
 nnoremap <leader><space> :noh<cr> 	" turn off search highlights
 nnoremap ; :
 "nnoremap i a
+nnoremap <leader>gs :Gstatus<cr>
+nnoremap <leader>gd :Gdiff<cr>
