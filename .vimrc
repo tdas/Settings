@@ -5,6 +5,7 @@ filetype off
 set rtp+=~/.vim/vundle/
 call vundle#rc()
 Bundle 'SuperTab-continued.'
+Bundle 'fugitive.vim' 
 filetype plugin indent on
 
 
