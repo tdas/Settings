@@ -40,3 +40,6 @@ nnoremap ; :
 "nnoremap i a
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gd :Gdiff<cr>
+
+" Completion parameters
+let g:SuperTabNoCompleteAfter = [';'] 
