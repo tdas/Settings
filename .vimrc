@@ -42,4 +42,4 @@ nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gd :Gdiff<cr>
 
 " Completion parameters
-let g:SuperTabNoCompleteAfter = [';'] 
+let g:SuperTabNoCompleteAfter = ['\s',';'] 
