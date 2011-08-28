@@ -6,6 +6,10 @@ set rtp+=~/.vim/vundle/
 call vundle#rc()
 Bundle 'SuperTab-continued.'
 Bundle 'fugitive.vim' 
+Bundle 'SearchComplete'
+Bundle 'tComment'
+" Bundle 'Conque-Shell'
+Bundle 'ZoomWin'
 filetype plugin indent on
 
 " Formatting
@@ -41,6 +45,18 @@ nnoremap ; :
 "nnoremap i a
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gd :Gdiff<cr>
+nnoremap <leader>ve :sp $MYVIMRC<cr>
+nnoremap <leader>vs :source $MYVIMRC<cr>
+nnoremap <leader>bi :BundleInstall!<cr>
+nnoremap <leader>bc :BundleClean<cr>
+map <leader>c <C-_><C-_>
+map <leader>cb <C-_>b
+map <leader>cp <C-_>p
+map c <C-_><C-_>
+" nnoremap <leader>tv :ConqueTermVSplit bash
+" nnoremap <leader>th :ConqueTermSplit bash
+" nnoremap <leader>t :ConqueTermVSplit bash
+nnoremap <C-w><C-z> :ZoomWin<cr>
 
-" Completion parameters
+" SuperTab-continued configuration
 let g:SuperTabNoCompleteAfter = ['\s',';'] 
