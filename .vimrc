@@ -10,6 +10,7 @@ Bundle 'SearchComplete'
 Bundle 'tComment'
 " Bundle 'Conque-Shell'
 Bundle 'ZoomWin'
+Bundle 'rainbow_parentheses.vim'
 filetype plugin indent on
 
 " Formatting
@@ -49,14 +50,22 @@ nnoremap <leader>ve :sp $MYVIMRC<cr>
 nnoremap <leader>vs :source $MYVIMRC<cr>
 nnoremap <leader>bi :BundleInstall!<cr>
 nnoremap <leader>bc :BundleClean<cr>
-map <leader>c <C-_><C-_>
-map <leader>cb <C-_>b
-map <leader>cp <C-_>p
-map c <C-_><C-_>
+nmap <leader>c <C-_><C-_>
+nmap <leader>cb <C-_>b
+nmap <leader>cp <C-_>p
+nmap c <C-_><C-_>
 " nnoremap <leader>tv :ConqueTermVSplit bash
 " nnoremap <leader>th :ConqueTermSplit bash
 " nnoremap <leader>t :ConqueTermVSplit bash
 nnoremap <C-w><C-z> :ZoomWin<cr>
+nnoremap <leader>r :RainbowParenthesesLoadRound<cr>:RainbowParenthesesLoadBraces<cr>:RainbowParenthesesLoadSquare<cr>:RainbowParenthesesToggle<cr>
 
 " SuperTab-continued configuration
-let g:SuperTabNoCompleteAfter = ['\s',';'] 
+let g:SuperTabNoCompleteAfter = ['\s',';']
+
+" Rainbow Parenthesis configuration
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+" au Syntax * RainbowParenthesesLoadChevrons
+
