@@ -1,0 +1,6 @@
+#!/bin/bash
+git config --global user.name "Tathagata Das"
+git config --global user.email "tathagata.das1565@gmail.com"
+git config --global color.ui true
+
+
