@@ -1,4 +1,0 @@
-mv ~/.ssh ~/.ssh_backup
-ln -s ~/Settings/.ssh ~/.ssh
-
-chmod -v -R 600 ~/.ssh/*
