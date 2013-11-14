@@ -8,7 +8,6 @@ Bundle 'SuperTab-continued.'
 Bundle 'fugitive.vim' 
 Bundle 'SearchComplete'
 Bundle 'tComment'
-" Bundle 'Conque-Shell'
 Bundle 'ZoomWin'
 Bundle 'rainbow_parentheses.vim'
 Bundle 'derekwyatt/vim-sbt'
@@ -61,6 +60,7 @@ nmap c <C-_><C-_>
 " nnoremap <leader>t :ConqueTermVSplit bash
 nnoremap <C-w><C-z> :ZoomWin<cr>
 nnoremap <leader>r :RainbowParenthesesLoadRound<cr>:RainbowParenthesesLoadBraces<cr>:RainbowParenthesesLoadSquare<cr>:RainbowParenthesesToggle<cr>
+set pastetoggle=<F2>
 
 " SuperTab-continued configuration
 let g:SuperTabNoCompleteAfter = ['\s',';']
