@@ -11,6 +11,8 @@ Bundle 'tComment'
 " Bundle 'Conque-Shell'
 Bundle 'ZoomWin'
 Bundle 'rainbow_parentheses.vim'
+Bundle 'derekwyatt/vim-sbt'
+Bundle 'derekwyatt/vim-scala'
 filetype plugin indent on
 
 " Formatting
