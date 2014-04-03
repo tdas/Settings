@@ -25,7 +25,7 @@ syntax on
 
 " Navigation
 set number 
-set mouse=a
+set mouse=
 set ruler
 set ww=<,>,h,l        " wraps the cursor to next/previous line
 set showcmd
