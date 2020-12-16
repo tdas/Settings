@@ -1,6 +1,7 @@
 set nocompatible
 
 " Vundle
+filetype on 
 filetype off
 set rtp+=~/.vim/vundle/
 call vundle#rc()
@@ -54,7 +55,7 @@ nnoremap <leader>bc :BundleClean<cr>
 nmap <leader>c <C-_><C-_>
 nmap <leader>cb <C-_>b
 nmap <leader>cp <C-_>p
-nmap c <C-_><C-_>
+" nmap c <C-_><C-_>
 " nnoremap <leader>tv :ConqueTermVSplit bash
 " nnoremap <leader>th :ConqueTermSplit bash
 " nnoremap <leader>t :ConqueTermVSplit bash
