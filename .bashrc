@@ -50,7 +50,11 @@ export LS_OPTIONS="-G -l"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export MAVEN_OPTS="-Xmx2g -XX:MaxPermSize=512M -XX:ReservedCodeCacheSize=512m"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home"
+JAVA_VERSION="1.8.0_131"
+export JAVA_HOME=`/usr/libexec/java_home -v $JAVA_VERSION`
+export JIRA_USERNAME=tdas
+export JIRA_PASSWORD=Br0kenh34rt_
+
 
 alias gs="git status"
 alias gl="git log"
